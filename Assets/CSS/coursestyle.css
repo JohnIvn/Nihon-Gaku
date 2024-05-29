@@ -1,0 +1,66 @@
+.custom-input {
+    border: 1px solid black;
+    background-color: transparent !important;
+    color: black; 
+    box-shadow: none !important;
+}
+
+.ichika {
+    border-radius: 0%;
+    color: black;
+    border-color: #feedb3;
+}
+
+.ichika:hover {
+    color: white;
+    background-color: #feedb3;
+    border-color: #feedb3;
+}
+
+.nino {
+    border-radius: 0%;
+    color: black;
+    border-color: #fdd0fd;
+}
+
+.nino:hover {
+    color: white;
+    background-color: #fdd0fd;
+    border-color: #fdd0fd;
+}
+
+.miku {
+    border-radius: 0%;
+    color: black;
+    border-color: #dcebfd;
+}
+
+.miku:hover {
+    color: white;
+    background-color: #dcebfd;
+    border-color: #dcebfd;
+}
+
+.yotsuba {
+    border-radius: 0%;
+    color: black;
+    border-color: #dff8c2;
+}
+
+.yotsuba:hover {
+    color: white;
+    background-color: #dff8c2;
+    border-color: #dff8c2;
+}
+
+.itsuki {
+    border-radius: 0%;
+    color: black;
+    border-color: #fed2e4;
+}
+
+.itsuki:hover {
+    color: white;
+    background-color: #fed2e4;
+    border-color: #fed2e4;
+}

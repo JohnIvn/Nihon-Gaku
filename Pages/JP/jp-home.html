@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>日本学 - エン</title>
+        <link rel="icon" type="image/png" href="../../Assets/Images/icon2.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="../../Assets/CSS/style.css">
+    </head>
+
+    <body style="background-color: #fed2e4;">
+        <nav class="navbar navbar-expand-md sticky-top border-bottom" data-bs-theme="dark" style="background-color: white" id="navbar">
+            <div class="container">
+                <a class="navbar-brand d-md-none" href="#" style="color: black;">
+                    日本学
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation" style="background-color: black;">
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel" style="background-color: transparent !important; overflow: hidden;">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasLabel">日本学</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" >
+                        <ul class="navbar-nav flex-grow-1 justify-content-between">
+                        <li class="nav-item" style="margin-top: 15px; font-size: larger;"><a class="nav-link nav-about" href="#about"><b>について</b>
+                            <span style="font-size: 0.6em; margin-top: -3px; padding: 0; line-height: 1; display: block;">
+                                &nbsp;
+                            </span></a>
+                        </li>
+                        <li class="nav-item" style="margin-top: 15px; font-size: larger;"><a class="nav-link nav-courses" href="#courses"><b>コース</b>
+                            <span style="font-size: 0.6em; margin-top: -3px; padding: 0; line-height: 1; display: block;">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span></a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a href="../EN-JP/en-jp-home.html">
+                                <img src="../../Assets/Images/logo2.png" alt="" width="230" height="64" class="d-none d-md-block">
+                            </a>
+                        </li>                        
+                        <li class="nav-item" style="margin-top: 15px; font-size: larger;"><a class="nav-link nav-pricing" href="#pricing"><b>価格設定</b>
+                            <span style="font-size: 0.6em; margin-top: -3px; padding: 0; line-height: 1; display: block;">
+                                
+                            </span></a>
+                        </li>
+                        <li class="nav-item" style="margin-top: 15px; font-size: larger;"><a class="nav-link nav-login" href="../EN-JP/en-jp-login.html"><b>ログイン</b>
+                            <span style="font-size: 0.6em; margin-top: -3px; padding: 0; line-height: 1; display: block;">
+                                &nbsp;
+                            </span></a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <main>
+            <div style="background-color: #feedb3; color: black;" >
+                
+                <br><br><br><br><br>
+
+                <div id="about" class="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary" style="background-color: transparent !important;">
+                    <div class="col-md-6 p-lg-5 mx-auto my-5 frosted-box">
+                        <!-- <div class="spinner-grow custom-color" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div> -->
+                        <marquee behavior="alternate" direction="left" width="200px">                        
+                            <div class="spinner-grow custom-color" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>   
+                        </marquee>                        
+                        <h3 class="fw-normal mb-3">インタラクティブで、チャレンジングで、楽しい日本語学習法。</h3>
+                        <h6 style="margin-bottom: 15px;"></h6>
+                        <a type="button" class="btn btn-outline-dark" href="../EN-JP/en-jp-checkout.html" style="line-height: 1;">
+                            買う 
+                            <span style="font-size: 0.6em; margin: 0; padding: 0; line-height: 1;">
+                                <br> 
+                            </span>
+                        </a>
+                        <a type="button" class="btn btn-outline-dark" href="#features" style="line-height: 1; margin-left: 10px;">
+                            ↓ さらに詳しく 
+                            <span style="font-size: 0.6em; margin: 0; padding: 0; line-height: 1;">
+                                <br> 
+                            </span>
+                        </a>
+                    </div>
+                </div>
+    
+                
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br>
+            </div>
+
+
+            <div style="background-color: #fdd0fd; color: black;">
+                <div id="features" class="position-relative overflow-hidden p-3 p-md-5 text-right bg-body-tertiary" style="background-color: transparent !important;">
+                    <div class="col-md-6 p-lg-5 mx-auto my-5 frosted-box">
+                        <h1 class="display-3 fw-bold">学習</h1>
+                        <h5 style="margin-bottom: 15px; margin-top: -10px;">&nbsp;&nbsp;&nbsp;</h5>
+                        <h4 class="fw-normal mb-3">楽しい情報体験をするために、私たちは以下のような機能を使いました：</h4>
+                        <h6 style="margin-top: -15px; margin-left: 10px; font-size: 0.75em;"></h6>
+                    </div>
+                    <div class="container px-4 py-1" id="feature">
+                        <h2 class="pb-2 border-bottom">特徴 
+                            <span style="display: block; font-size: 0.6em;"></span>
+                        </h2>
+                        <hr>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                          <div class="col d-flex align-items-start">
+                            <i class="bi bi-credit-card-fill bi flex-shrink-0 me-3"></i>
+                            <div>
+                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">無料 
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </h3>
+                                <p style="margin-top: 7px;">日本ガクは有料広告と寄付によって支えられており、無料でコンテンツを提供することができます。
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="col d-flex align-items-start">
+                            <i class="bi bi-bootstrap-reboot bi flex-shrink-0 me-3"></i>
+                            <div>
+                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">リプレイアビリティー
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </h3>
+                                <p style="margin-top: 7px;">私たちが最も重視しているのはリプレイ性で、ゲームやチャレンジが単調になることなく、複数のセッションにわたって魅力的であり続けることを保証します。
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="col d-flex align-items-start">
+                            <i class="bi bi-bezier2  bi flex-shrink-0 me-3"></i>
+                            <div>
+                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">バラエティ
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </h3>
+                                <p style="margin-top: 7px;">私たちのコースは多様で特色があり、参加者にユニークな体験を提供しています。
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="col d-flex align-items-start"> 
+                            <i class="bi bi-book bi flex-shrink-0 me-3"></i>
+                            <div>
+                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">情報源
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </h3>
+                                <p style="margin-top: 7px;">私たちはさまざまな書籍、ドキュメンタリー、その他のメディアから情報を収集し、正確で包括的な研究を保証している。
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="col d-flex align-items-start">
+                            <i class="bi bi-browser-chrome bi flex-shrink-0 me-3"></i>
+                            <div>
+                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">ブラウザ
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </h3>
+                                <p style="margin-top: 7px;">日本ガクは幅広いブラウザに最適化されており、様々なプラットフォームや画面サイズでの互換性を確保しています。
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="col d-flex align-items-start">
+                            <i class="bi bi-bullseye bi flex-shrink-0 me-3"></i>
+                            <div>
+                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">正確
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </h3>
+                                <p style="margin-top: 7px;">正確なコースは生徒の学習成果を高めます。
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="col d-flex align-items-start">
+                            <i class="bi bi-calendar-week bi flex-shrink-0 me-3"></i>
+                            <div>
+                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">更新情報
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </h3>
+                                <p style="margin-top: 7px;">常に更新を続けることで、日本学の情報は正確でユーザーフレンドリーであり続けます。
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </p>
+                            </div>
+                          </div>
+                          <div class="col d-flex align-items-start">
+                            <i class="bi bi-cookie bi flex-shrink-0 me-3"></i>
+                            <div>
+                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">プライバシー
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </h3>
+                                <p style="margin-top: 7px;">当社のシステムは、お客様のデータの安全性とセキュリティを確保するように設計されています。
+                                    <span style="display: block; font-size: 0.5em;"></span>
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="background-color: #dcebfd;">
+                <div id="courses" class="position-relative overflow-hidden p-3 p-md-5 text-left bg-body-tertiary" style="background-color: transparent !important;">
+                    <div class="col-md-6 p-lg-3 mx-auto my-5 text-end frosted-box">
+                        <h1 class="display-3 fw-bold">コース</h1>
+                        <h5 style="margin-bottom: 15px; margin-top: -15px;">&nbsp;&nbsp;&nbsp;</h5>
+                        <h4 class="fw-normal mb-3">気候をテーマにしたコースをご覧ください。</h4>
+                        <h6 style="margin-top: -15px; margin-left: 10px; font-size: 0.75em;"></h6>
+                        <h5>基本コースは、地球の季節に合わせて4つの段階からなる。</h5>
+                        <h6 style="margin-top: -6px; margin-left: 10px; font-size: 0.75em;"></h6>
+                    </div>
+                    <div class="col-md-10 p-lg-0 mx-auto my-5">
+                        <div class="card-group">
+                            <div class="card col mx-2">
+                                <img src="../../Assets/Images/S3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">春
+                                        <span style="display: block; font-size: 0.6em;"></span>
+                                    </h5>
+                                    <br>
+                                    <p class="card-text">ナカタカ・ひらがな・漢字のカラフルで多彩な世界を体験してください。
+                                        <span style="display: block; font-size: 0.6em;"></span>
+                                    </p>
+                                </div>
+                                <a href="../EN-JP/en-jp-login.html" class="btn btn-outline-primary spring-btn" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">試す  </a>
+                            </div>
+                            <div class="card col mx-2">
+                                <img src="../../Assets/Images/S5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">夏
+                                        <span style="display: block; font-size: 0.6em;"></span>
+                                    </h5>
+                                    <br>
+                                    <p class="card-text">暑さに耐え、センテンス作りに挑む。
+                                        <span style="display: block; font-size: 0.6em;"></span>
+                                    </p>
+                                </div>
+                                <a href="../EN-JP/en-jp-login.html" class="btn btn-outline-primary summer-btn"> 試す</a>
+                            </div>
+                            <div class="card col mx-2">
+                                <img src="../../Assets/Images/S4.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">秋
+                                        <span style="display: block; font-size: 0.6em;"></span>
+                                    </h5>
+                                    <br>
+                                    <p class="card-text">嵐の前の静けさ、自分の知識を試す準備と心構え。
+                                        <span style="display: block; font-size: 0.6em;"></span>
+                                    </p>
+                                </div>
+                                <a href="../EN-JP/en-jp-login.html" class="btn btn-outline-primary autumn-btn">試す </a>
+                            </div>
+                            <div class="card col mx-2">
+                                <img src="../../Assets/Images/S1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">冬
+                                        <span style="display: block; font-size: 0.6em;"></span>
+                                    </h5>
+                                    <br>
+                                    <p class="card-text">勝利への道筋を理解することだ。
+                                        <span style="display: block; font-size: 0.6em;"></span>
+                                    </p>
+                                </div>
+                                <a href="../EN-JP/en-jp-login.html" class="btn btn-outline-primary winter-btn">試す </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div style="background-color: #dff8c2;">
+                <div id="pricing" class="position-relative overflow-hidden p-3 p-md-5 text-left bg-body-tertiary" style="background-color: transparent !important;">                      
+                    <div class="col-md-6 p-lg-3 mx-auto my-5 text-center">
+                        <h1 class="display-3 fw-bold">価格</h1>
+                        <h5 style="margin-bottom: 15px; margin-top: -15px;"></h5>
+                        <h4 class="fw-normal mb-3">さまざまなバージョンを体験しよう。</h4>
+                        <h6 style="margin-top: -15px; margin-left: 10px; font-size: 0.75em;"></h6>
+                    </div>
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <br>
+                                <p style="text-align: center;">コーヒーをおごることで寄付する
+                                    <span style="display: block; font-size: 0.6em;"></span>
+                                </p>                                 
+                                <div style="text-align: center; margin-top: -50px;" >
+                                    <div class="container mt-5">
+                                        <div class="row">
+                                            <div class="col-md-4 col-6 d-flex justify-content-center">
+                                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 50px; margin-top: 10px; width: 200px;">
+                                                    <i class="bi bi-cup-hot"></i> カプチーノ 
+                                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                                        <br> 
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-6 d-flex justify-content-center">
+                                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 50px; margin-top: 10px; width: 200px;">
+                                                    <i class="bi bi-cup-hot"></i> ラテ
+                                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                                        <br> 
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-12 d-flex justify-content-center">
+                                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 50px; margin-top: 10px; width: 200px;">
+                                                    <i class="bi bi-cup-hot"></i> アメリカーノ 
+                                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                                        <br>  
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 col-6 d-flex justify-content-center">
+                                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 50px; margin-top: 10px; width: 200px;">
+                                                    <i class="bi bi-cup-hot"></i> モカ 
+                                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                                        <br>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-6 d-flex justify-content-center">
+                                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 50px; margin-top: 10px; width: 200px;">
+                                                    <i class="bi bi-cup-hot"></i> 紅茶 
+                                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                                        <br> 
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-12 d-flex justify-content-center">
+                                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 50px; margin-top: 10px; width: 200px;">
+                                                    <i class="bi bi-cup-hot"></i> エスプレッソ 
+                                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                                        <br> 
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 col-6 d-flex justify-content-center">
+                                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 50px; margin-top: 10px; width: 200px;">
+                                                    <i class="bi bi-cup-hot"></i> ミルク入りコーヒー
+                                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                                        <br> 
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-6 d-flex justify-content-center">
+                                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 50px; margin-top: 10px; width: 200px;">
+                                                    <i class="bi bi-cup-hot"></i> フラットホワイト
+                                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                                        <br>   
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-4 col-12 d-flex justify-content-center">
+                                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 50px; margin-top: 10px; width: 200px;">
+                                                    <i class="bi bi-cup-hot"></i> 紅茶
+                                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                                        <br> 
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center" style="margin-top: 10px;">
+                                    <input id="newsletter1" type="text" class="form-control" placeholder="オプションのメッセージ:" style="background-color: transparent; border-color: black; height: 40px; width: 70%;">
+                                </div>   
+                                <br>
+                            </div>
+                            <div class="col-md-4 col-12 frosted-box">
+                                <nav>
+                                    <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" style="color: black !important;">
+                                            <i class="bi bi-globe2"></i> 無料 <span style="display: block; font-size: 0.6em; margin-left: 10px;"></span>
+                                        </button>
+                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" tabindex="-1" style="color: black !important;">
+                                            <i class="bi bi-currency-dollar"></i> 有料 <span style="display: block; font-size: 0.6em; margin-left: 10px;"></span>
+                                        </button>
+                                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false" tabindex="-1"style="color: black !important;">
+                                            <i class="bi bi-cup-hot"></i> 寄付金 <span style="display: block; font-size: 0.6em; margin-left: -15px;"></span>
+                                        </button>
+                                    </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                        <p>完全無料の日本語コースに参加して、費用や約束なしで日本語学習を始めましょう。インタラクティブなレッスンと専門家のガイダンスを通して日本語を学ぶ、このユニークな機会をご利用ください。
+                                            <span style="display: block; font-size: 0.6em; margin-top: 3px;"></span>                                        
+                                            <div style="text-align: center;">                                            
+                                                <a type="button" class="btn btn-outline-dark" href="../EN-JP/en-jp-signup.html" style="line-height: 1;">
+                                                    参加する
+                                                <span style="font-size: 0.6em; line-height: 1;">
+                                                    <br>  
+                                                </span>
+                                                </a>
+                                            </div>
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                        <p>月々わずか1ドルで日本語コースに登録し、包括的なレッスンと専門家の指導を受けることができます。月々わずか1ドルで、プレミアムコンテンツと個別サポートで日本語にどっぷり浸かることができます。
+                                            <span style="display: block; font-size: 0.6em; margin-top: 3px;"></span>
+                                            <div style="text-align: center;">                                            
+                                                <a type="button" class="btn btn-outline-dark" href="../EN-JP/en-jp-checkout.html" style="line-height: 1;">
+                                                    購入 
+                                                <span style="font-size: 0.6em; line-height: 1;">
+                                                    <br> 
+                                                </span>
+                                                </a>
+                                            </div>
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                        <p>寄付を通じて日本語コースを支援し、世界中の学習者に質の高い教育を提供し続けるためにお役立てください。皆様からのご寄付により、日本語を学びたいと熱望する学習者に総合的なレッスンと専門家の指導を提供することができます。
+                                            <span style="display: block; font-size: 0.6em; margin-top: 3px;"></span>
+                                            <div style="text-align: center;">                                            
+                                                <a type="button" class="btn btn-outline-dark" href="../EN-JP/en-jp-home.html#pricing" style="line-height: 1;">
+                                                    寄付する
+                                                <span style="font-size: 0.6em; line-height: 1;">
+                                                    <br>  
+                                                </span>
+                                                </a>
+                                            </div>
+                                        </p>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12 ">
+                                <br>
+                                <p style="text-align: center;">日本学は下記でも入手可能である：
+                                    <span style="display: block; font-size: 0.6em;"></span>
+                                </p>
+                                <p style="text-align: center;">モバイル版：
+                                    <span style="display: block; font-size: 0.6em;"></span>
+                                    <a type="button" class="btn btn-outline-dark mt-2" href="https://play.google.com/" style="line-height: 1; height: 40px; width: 120px;">
+                                        <i class="bi bi-google-play"></i> 
+                                        <span style="font-size: 0.9em;">グーグルプレイ 
+                                            <span style="display: block; font-size: 0.5em; margin-top: 3px;"> </span>
+                                        </span>
+                                    </a>
+                                    <a type="button" class="btn btn-outline-dark mt-2" href="https://www.apple.com/ph/app-store/" style="line-height: 1; height: 40px; margin-left: 0px; width: 120px;">
+                                        <i class="bi bi-apple"></i>
+                                        <span style="font-size: 0.9em;">アップル
+                                            <span style="display: block; font-size: 0.5em; margin-top: 3px;"> </span>
+                                        </span>
+                                    </a>
+                                </p>
+                                <p style="text-align: center;"> ビデオサービス：
+                                    <span style="display: block; font-size: 0.6em;"></span>
+                                    <a type="button" class="btn btn-outline-dark mt-2 mt-md-2 ml-0 ml-md-2" href="https://www.primevideo.com" style="line-height: 1; height: 40px; width: 120px;">
+                                        <i class="bi bi-amazon"></i>
+                                        <span style="font-size: 0.9em;">アマゾン
+                                            <span style="display: block; font-size: 0.5em; margin-top: 3px;"> </span>
+                                        </span>
+                                    </a>
+                                    <a type="button" class="btn btn-outline-dark mt-2 ml-0 mt-md-2" href="https://www.youtube.com/" style="line-height: 1; height: 40px; margin-left: 0px; width: 120px;">
+                                        <i class="bi bi-youtube"></i>
+                                        <span style="font-size: 0.9em;">ユーチューブ
+                                            <span style="display: block; font-size: 0.5em; margin-top: 3px;"> </span>
+                                        </span>
+                                    </a>  
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+            
+            <div style="background-color: #fed2e4;">
+                <div id="faq" class="position-relative overflow-hidden p-3 p-md-5 text-center bg-body-tertiary" style="background-color: transparent !important;">
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <br>
+                            <img src="../../Assets/Images/qr.png" class="img-fluid" alt="Placeholder Image" height="225px" width="225px">
+                            <br><br>
+                            <h6>カスタマーサポートにご連絡ください。 <br> 
+                                <span style="margin-top: -3px; display: block;">nihongaku.care@gmail.com にて<</span>
+                            </h6>
+                            <p style="font-size: 0.6em; margin-top: 0px;">&nbsp;&nbsp;&nbsp;<br> 
+                                <span style="margin-top: -3px; display: block;">/span>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <br>
+                            <p><b>よく寄せられる質問</b>
+                                <span style="display: block; font-size: 0.8em; margin-top: -7px;"></span>
+                            </p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <div style="display: flex; flex-direction: column;">
+                                                <span style="order: 1;">さらに質問がある。</span>
+                                                <span style="order: 2; font-size: 0.55em;"></span>
+                                            </div>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body" style="font-size: 0.7em;">
+                                            ご不明な点がございましたら、メールアドレスまでお問い合わせください。
+                                            <span style="font-size: 0.6em; display: block;"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <div style="display: flex; flex-direction: column;">
+                                                <span style="order: 1;">私はアカウントを持っていない。</span>
+                                                <span style="order: 2; font-size: 0.55em;"></span>
+                                            </div>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body" style="font-size: 0.7em;">
+                                            ライセンスを購入するには、価格のセクションに進みます。
+                                            <span style="font-size: 0.6em; display: block;"></span>                                        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <div style="display: flex; flex-direction: column;">
+                                                <span style="order: 1;">アカウントを忘れた。</span>
+                                                <span style="order: 2; font-size: 0.55em;"></span>
+                                            </div>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body" style="font-size: 0.7em;">
+                                            nihongakuカスタマーサービスにお問い合わせください。
+                                            <span style="font-size: 0.6em; display: block;"></span>                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <br>
+                            <p><b>私たちの学習者はそこで働いている：</b>
+                                <span style="display: block; font-size: 0.6em;"></span>
+                            </p>
+                            <p>
+                                <i class="bi bi-google" style="margin-top: 15px;"></i> グーグル 
+                                <span style="display: block; font-size: 0.6em; margin-left: 13px;">
+                                    
+                                </span>
+                            </p>
+                            <p>
+                                <i class="bi bi-microsoft" style="margin-top: 15px;"></i> マイクロソフト 
+                                <span style="display: block; font-size: 0.6em; margin-left: 13px;">
+                                    
+                                </span>
+                            </p>
+                            <p>
+                                <i class="bi bi-meta" style="margin-top: 15px;"></i> メタ 
+                                <span style="display: block; font-size: 0.6em; margin-left: 13px;">
+                                    
+                                </span>
+                            </p>  
+                            <p>
+                                <i class="bi bi-apple" style="margin-top: 15px;"></i> アップル 
+                                <span style="display: block; font-size: 0.6em; margin-left: 13px;">
+                                    
+                                </span>
+                            </p>
+                            <p>
+                                <i class="bi bi-yelp" style="margin-top: 15px;"></i> イェルプ 
+                                <span style="display: block; font-size: 0.6em; margin-left: 13px;">
+                                    
+                                </span>
+                            </p>   
+                        </div>
+                    </div>
+                </div>                                                             
+            </div>
+            <hr>
+        </main>
+    
+        <footer class="container py-5 mt-0">
+            <div class="row">
+                <div class="col-6 col-md">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <hr style="width: 100%; margin-left: -13px;">
+                            </div>
+                        </div>
+                    </div>
+                    <h4><b>について</b>
+                        <span style="margin-top: -2px; display: block; font-size: 0.6em;"><b></b></span>
+                    </h4>
+                    <ul class="list-unstyled text-small">
+                        <small><li><a class="footer-link" href="#about">会社概要 
+                            <span style="display: block; font-size: 0.5em;">
+                                会社概要 
+                            </span>
+                        </a></li></small>
+                        <small><li><a class="footer-link" href="#about">チーム
+                            <span style="display: block; font-size: 0.5em;">
+                                
+                            </span>
+                        </a></li></small>
+                    </ul>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <hr style="width: 100%; margin-left: -13px;">
+                            </div>
+                        </div>
+                    </div>
+                    <h4><b>特徴</b>
+                        <span style="margin-top: -2px; display: block; font-size: 0.6em;"><b></b></span>
+                    </h4>
+                    <ul class="list-unstyled text-small">
+                        <small><li><a class="footer-link" href="#features">はじめに
+                            <span style="display: block; font-size: 0.5em;">
+                                 
+                            </span>
+                        </a></li></small>
+                        <small><li><a class="footer-link" href="#features">スイートルーム
+                            <span style="display: block; font-size: 0.5em;">
+                                 
+                            </span>
+                        </a></li></small>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <hr style="width: 100%; margin-left: -13px;">
+                            </div>
+                        </div>
+                    </div>
+                    <h5><b>コース</b>
+                        <span style="margin-top: -2px; display: block; font-size: 0.6em;"><b></b></span>
+                    </h5>
+                        <ul class="list-unstyled text-small">
+                            <small><li><a class="footer-link" href="#courses">春
+                                <span style="display: block; font-size: 0.6em;"></span>
+                            </a></li></small>
+                            <small><li><a class="footer-link" href="#courses">夏
+                                <span style="display: block; font-size: 0.6em;"></span>
+                            </a></li></small>
+                            <small><li><a class="footer-link" href="#courses">秋
+                                <span style="display: block; font-size: 0.6em;"></span>
+                            </a></li></small>
+                            <small><li><a class="footer-link" href="#courses">冬
+                                <span style="display: block; font-size: 0.6em;"></span>
+                            </a></li></small>
+                        </ul>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <hr style="width: 100%; margin-left: -13px; margin-top: 0px;">
+                                </div>
+                            </div>
+                        </div>
+                        <form>
+                            <h5><b>ニュースレターを購読する</b> 
+                                <span style="display: block; font-size: 0.6em;"><b></b></span>
+                            </h5>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                              <label for="newsletter1" class="visually-hidden">メールアドレス</label>
+                              <input id="newsletter1" type="text" class="form-control" placeholder="メールアドレス" style="background-color: transparent; border-color: black; height: 40px;">
+                                <a type="button" class="btn btn-outline-dark" href="#" style="line-height: 1; height: 40px;">
+                                    サブスクライブ 
+                                    <span style="font-size: 0.4em; margin: 0; padding: 0; line-height: 1;">
+                                        <br> 
+                                    </span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                    
+                <div class="col-6 col-md">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <hr style="width: 100%; margin-left: -13px;">
+                            </div>
+                        </div>
+                    </div>
+                    <h5 ><b>価格設定</b>
+                        <span style="margin-top: -2px; display: block; font-size: 0.6em;"><b></b></span>
+                    </h5>
+                    <ul class="list-unstyled text-small">
+                        <small><li><a class="footer-link" href="#pricing">無料版
+                            <span style="display: block; font-size: 0.5em;">
+                                
+                            </span>
+                        </a></li></small>
+                        <small><li><a class="footer-link" href="#pricing">有料版
+                            <span style="display: block; font-size: 0.5em;">
+                                
+                            </span>
+                        </a></li></small>
+                        <small><li><a class="footer-link" href="#pricing">モバイル版 
+                            <span style="display: block; font-size: 0.5em;">
+                                
+                            </span>
+                        </a></li></small>
+                        <small style="display: block; margin-top: 5px;">さあ、始めよう：
+                            <span style="display: block; font-size: 0.5em;"> </span>
+                        </small>
+                        <a type="button" class="btn btn-outline-dark mt-2 mt-md-0" href="https://play.google.com/" style="line-height: 1; height: 40px; width: 120px;">
+                            <i class="bi bi-google-play"></i> 
+                            <span style="font-size: 0.9em;">グーグルプレイ
+                                <span style="display: block; font-size: 0.5em; margin-top: 3px;"> </span>
+                            </span>
+                        </a>
+                        <a type="button" class="btn btn-outline-dark mt-2 mt-md-0" href="https://www.apple.com/ph/app-store/" style="line-height: 1; height: 40px; margin-left: 0px; width: 120px;">
+                            <i class="bi bi-apple"></i>
+                            <span style="font-size: 0.9em;">アップル
+                                <span style="display: block; font-size: 0.5em; margin-top: 3px;"> </span>
+                            </span>
+                        </a>
+                        <a type="button" class="btn btn-outline-dark mt-2 mt-md-2 ml-0 ml-md-2" href="https://www.primevideo.com" style="line-height: 1; height: 40px; width: 120px;">
+                            <i class="bi bi-amazon"></i>
+                            <span style="font-size: 0.9em;">アマゾン
+                                <span style="display: block; font-size: 0.5em; margin-top: 3px;"> </span>
+                            </span>
+                        </a>
+                        <a type="button" class="btn btn-outline-dark mt-2 ml-0 mt-md-2" href="https://www.youtube.com/" style="line-height: 1; height: 40px; margin-left: 0px; width: 120px;">
+                            <i class="bi bi-youtube"></i>
+                            <span style="font-size: 0.9em;">ユーチューブ
+                                <span style="display: block; font-size: 0.5em; margin-top: 3px;"> </span>
+                            </span>
+                        </a>       
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <hr style="width: 100%; margin-left: -13px;">
+                            </div>
+                        </div>
+                    </div>
+                    <h5><b>Site Language</b>
+                        <span style="margin-top: -2px; display: block; font-size: 0.6em;"><b>サイトの言語</b></span>
+                    </h5>
+                    <ul class="list-unstyled text-small">
+                        <small><li><a class="footer-link" href="../EN-JP/en-jp-home.html">英語/日本語 (EN-JP)
+                            <span style="display: block; font-size: 0.5em;"></span>
+                        </a></li></small>
+                        <small><li><a class="footer-link" href="../EN-JP/en-only-home.html">英語 (EN-US)
+                            <span style="display: block; font-size: 0.5em;"></span>
+                        </a></li></small>
+                        <small><li><a class="footer-link" href="../JP/jp-home.html">日本語 (JP)
+                            <span style="display: block; font-size: 0.5em;"></span>
+                        </a></li></small>
+                        <small><li><a class="footer-link" href="../TL/tl-home.html">タガログ語 (PH-TL)
+                            <span style="display: block; font-size: 0.5em;"></span>
+                        </a></li></small>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex flex-column flex-sm-row justify-content-between" style="margin-bottom: -100px;">
+                <p style="font-size: 0.8em;">
+                    <a href="../EN-JP/en-jp-legal.html#privacy" style="text-decoration: none; color: inherit;">プライバシーポリシー
+                        <span style="font-size: 0.6em;"></span>
+                    </a>
+                    |
+                    <a href="../EN-JP/en-jp-legal.html#cookie" style="text-decoration: none; color: inherit;">クッキーポリシー 
+                        <span style="font-size: 0.6em;"></span>
+                    </a>
+                    |
+                    <a href="../EN-JP/en-jp-legal.html#terms" style="text-decoration: none; color: inherit;">ご利用条件
+                        <span style="font-size: 0.6em;"></span>
+                    </a>
+                </p>
+                <div class="ml-auto" style="font-size: 0.8em;">                        
+                    <span>
+                        © 2024 日本研究
+                        <span style="font-size: 0.6em;"></span>
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../../Assets/Scripts/script.js"></script>
+</html>

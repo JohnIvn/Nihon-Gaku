@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'YuGothic';
+    src: url('Assets/Fonts/YuGothR.ttc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YuGothicM';
+    src: url('Assets/Fonts/YuGothM.ttc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YuGothicL';
+    src: url('Assets/Fonts/YuGothL.ttc') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YuGothicB';
+    src: url('Assets/Fonts/YuGothB.ttc') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+.nav-item:hover .nav-about{
+    color: #feedb3 !important;
+}
+
+.nav-item:hover .nav-courses{
+    color: #dcebfd!important;
+}
+
+.nav-item:hover .nav-pricing{
+    color: #dff8c2 !important;
+}
+
+.nav-item:hover .nav-login{
+    color: #fed2e4!important;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    color: #000000;
+    font-family: 'YuGothic';
+    font-size: large;
+}
+
+#navbar {
+    transition: top 0.3s;
+}
+
+.spinner-grow {
+    animation-duration: 3s; 
+}
+
+.custom-color {
+    color: #ff00ff; 
+}
+
+.card2 {
+    height: 500px;
+}
+
+.card3 {
+    height: 200px;
+}
+
+.spring-btn {
+    border-radius: 0%;
+    border-color: #D6F1C6;
+    color: black;
+}
+
+.spring-btn:hover {
+    color: white;
+    background-color: #D6F1C6;
+    border-color: #D6F1C6 !important;    
+}
+
+.summer-btn {
+    border-radius: 0%;
+    border-color: #fffb5f;
+    color: black;
+}
+
+.summer-btn:hover {
+    color: white;
+    background-color: #fffb5f !important;
+    border-color: #fffb5f !important;
+}
+
+.autumn-btn {
+    border-radius: 0%;
+    color: black;
+    border-color: #F9CC87;
+}
+
+.autumn-btn:hover {
+    color: white;
+    background-color: #F9CC87 !important;
+    border-color: #F9CC87 !important;
+}
+
+.winter-btn {
+    border-radius: 0%;
+    color: black;
+    border-color: #C9F1FD;
+}
+
+.winter-btn:hover {
+    color: white;
+    background-color: #C9F1FD !important;
+    border-color: #C9F1FD !important;
+}
+
+.a-forgot {
+    background-color: transparent;
+    color: rgb(0, 102, 255);
+}
+
+.image-button {
+    background: white;
+    border: 1px solid black;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.image-button img {
+    width: 32px;
+    height: 32px;
+
+}
+
+.center-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-floating>.form-control-plaintext~label::after, 
+.form-floating>.form-control:focus~label::after, 
+.form-floating>.form-control:not(:placeholder-shown)~label::after, 
+.form-floating>.form-select~label::after {
+    background-color: transparent;
+    color: black;
+}
+
+.frosted-box {
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(5px); 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+

@@ -1,0 +1,7 @@
+.container {
+    max-width: 960px;
+}
+
+input:focus {
+    color: #dcebfd !important;
+}
