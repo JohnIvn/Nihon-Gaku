@@ -1,13 +1,14 @@
 # Nihon Gaku
 
-一、二、三、四、五
+> 一、二、三、四、五
 
-An Interactive Website for Learning the Japanese Language
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-blue?logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 
-"Nihon Gaku is an interactive and responsive website focused on teaching Japanese to its users.
-It offers foundational knowledge about the Japanese language in a fun, engaging, and replayable format."
+---
 
-## ABOUT
+## About
 
 Nihon Gaku is designed to introduce newcomers to the Japanese language through interactive learning tools.
 The website focuses on simplicity, engagement, and effective communication to avoid overwhelming users
@@ -16,50 +17,58 @@ while keeping them motivated.
 The platform features games and quizzes to teach vocabulary, basic sentence construction, and essential
 communication skills. Nihon Gaku uses clean visuals and minimal design to enhance focus and user experience.
 
-## OBJECTIVES
+---
 
-- Make learning the Japanese language simple, enjoyable, and informative.
-- Introduce users to Japanese words, sentences, and conversational basics.
-- Use interactivity and gamification to boost engagement and learning retention.
-- Deliver a lightweight and responsive website built with HTML, CSS, and JavaScript.
+## Table of Contents
 
-## FEATURES
-
-- Interactive word games and sentence builders
-- Visual-based learning modules for hiragana, katakana, and basic kanji
-- Responsive layout for both desktop and mobile devices
-- Progress tracking and replayable lessons for improved retention
-- Simplified interface designed to reduce cognitive load for beginners
-
-## REQUIREMENTS
-
-To run locally, you'll need:
-
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- Code editor (e.g., VS Code) for local development
-- Live server extension (optional for development preview)
-
-## INSTALLATION
-
-1. Clone the Repository:
-   git clone https://github.com/JohnIvn/Nihon-Gaku.git
-   cd nihon-gaku
-
-2. Open the Project in Your Code Editor
-
-3. Start a Live Server (or open `index.html` directly in your browser)
-
-## TECHNOLOGIES USED
-
-- HTML5 for structure
-- CSS3 for styling and responsive design
-- JavaScript for interactive elements and learning games
-
-## LICENSE
-
-This project is licensed under the MIT License.
-See the LICENSE file for full details.
+- [Features](#features)
+- [Installation](#installation)
+- [Technologies Used](#technologiesused)
+- [License](#license)
 
 ---
 
-Nihon Gaku — Learn Japanese your way: interactively, simply, and enjoyably.
+## Features
+
+- Send RC522 tag data from Arduino to Socket.IO server
+- No need for ESP32 or NodeMCU
+- Easy setup using environment variables
+
+---
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/JohnIvn/Nihon-Gaku.git
+```
+
+### 2. Open the Project in Your Code Editor
+
+### 3. Start a Live Server
+
+---
+
+## Technologies Used
+
+| Category | Tools                          |
+| -------- | ------------------------------ |
+| Frontend | CSS3 & HTML                    |
+| Backend  | JavaScript & XAMPP SQL         |
+
+---
+
+## Testing
+
+Once everything is set up and the server is running, you can test simply by going to the url.
+
+---
+
+## License
+
+See the [LICENSE](LICENSE) file for more information.
+
+---
+
+> Built with ❤️ by JohnIvn
