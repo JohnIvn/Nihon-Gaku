@@ -23,7 +23,7 @@ communication skills. Nihon Gaku uses clean visuals and minimal design to enhanc
 
 - [Features](#features)
 - [Installation](#installation)
-- [Technologies Used](#technologiesused)
+- [Technologies Used](#technologies-used)
 - [License](#license)
 
 ---
@@ -50,7 +50,7 @@ git clone https://github.com/JohnIvn/Nihon-Gaku.git
 
 ---
 
-## Technologies Used
+## Technologies-Used
 
 | Category | Tools                          |
 | -------- | ------------------------------ |
